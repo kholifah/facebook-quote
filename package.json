@@ -1,0 +1,26 @@
+{
+  "name": "facebook-quote",
+  "version": "1.0.0",
+  "description": "Using quote api to post daily facebook status",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w",
+    "start": "node ."
+  },
+  "keywords": [
+    "facebook",
+    "quote"
+  ],
+  "author": "Raabb Ajam <raabbajam@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "dotenv": "^1.2.0",
+    "fb": "^0.7.0",
+    "lodash": "^3.10.1",
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0"
+  }
+}
