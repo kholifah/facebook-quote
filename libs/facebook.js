@@ -1,5 +1,5 @@
 // console.log(__dirname + '/.env');
-require('dotenv').load();
+require('dotenv').load({path:__dirname + '/.env'});
 var fb = require('fb');
 
 module.exports = function (post, callback) {
